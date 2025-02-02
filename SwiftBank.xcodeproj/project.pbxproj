@@ -26,6 +26,7 @@
 		48F0A5F12B8983C3000AD05E /* SBTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0A5F02B8983C3000AD05E /* SBTitleLabel.swift */; };
 		ED7647082D4EBCDA00E5BE62 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7647072D4EBCCC00E5BE62 /* NotificationService.swift */; };
 		ED76470A2D4EBD8600E5BE62 /* TransactionHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7647092D4EBD6B00E5BE62 /* TransactionHistoryService.swift */; };
+		ED76470C2D4FE90700E5BE62 /* BankOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED76470B2D4FE90100E5BE62 /* BankOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		48F0A5F02B8983C3000AD05E /* SBTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBTitleLabel.swift; sourceTree = "<group>"; };
 		ED7647072D4EBCCC00E5BE62 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		ED7647092D4EBD6B00E5BE62 /* TransactionHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryService.swift; sourceTree = "<group>"; };
+		ED76470B2D4FE90100E5BE62 /* BankOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		48D023972BA3F7170008B0BE /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				ED76470B2D4FE90100E5BE62 /* BankOperation.swift */,
 				ED7647092D4EBD6B00E5BE62 /* TransactionHistoryService.swift */,
 				ED7647072D4EBCCC00E5BE62 /* NotificationService.swift */,
 				48D023982BA3F7CC0008B0BE /* BankAccount.swift */,
@@ -229,6 +232,7 @@
 				48F0A5E02B89520F000AD05E /* WithdrawViewController.swift in Sources */,
 				48F0A5DE2B8951CD000AD05E /* DepositViewController.swift in Sources */,
 				48D8316F2B8E20480061D339 /* Date+.swift in Sources */,
+				ED76470C2D4FE90700E5BE62 /* BankOperation.swift in Sources */,
 				ED7647082D4EBCDA00E5BE62 /* NotificationService.swift in Sources */,
 				48F0A5ED2B89824F000AD05E /* SBTextField.swift in Sources */,
 				48BD84D22B8E6E7F007F2460 /* Double+.swift in Sources */,
