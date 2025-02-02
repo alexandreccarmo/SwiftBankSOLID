@@ -56,6 +56,14 @@ class BankAccount: AccountServices {
         }
     }
     
+    func getTotalTransictions() -> Int {
+        return transactionsHistoryService.transactions.count
+    }
+    
+    func getTransictionPosition(index: Int) -> String {
+        return transactionsHistoryService.transactions[index]
+    }
+    
     
     func requestLoan(amount: Double) {
         // Pedir um empréstimo
