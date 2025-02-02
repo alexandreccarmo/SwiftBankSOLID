@@ -1,5 +1,6 @@
 import Foundation
 
+//: ### Exemplo de OCP do SOLID, regras de aberto e fechado
 protocol PostDisplay {
     func display()
 }

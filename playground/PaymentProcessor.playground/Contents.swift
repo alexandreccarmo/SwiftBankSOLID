@@ -1,5 +1,5 @@
 import Foundation
-
+//: ### Exemplo de OCP do SOLID, regras de aberto e fechado
 protocol PaymentMethod {
     func processPayment(amount: Double)
 }
