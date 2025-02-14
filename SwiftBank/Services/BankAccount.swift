@@ -21,6 +21,7 @@ class BankAccount: AccountServices {
     
     var balance: Double = 0.0
     var accountNumber: String
+    var isFrozen: Bool = false
     
      var notificationService = NotificationService()
      var transactionsHistoryService = TransactionHistoryService()
@@ -30,6 +31,10 @@ class BankAccount: AccountServices {
     }
     
     func performOperation(operation: BankOperation, amount: Double) -> Bool {
+        guard !isFrozen else {
+            notificationService.sendNotification(message: "Operação falhou a conta esta congelada")
+            return false
+        }
         return operation.execute(in: self, amount: amount)
     }
     
