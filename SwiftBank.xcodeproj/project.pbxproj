@@ -24,6 +24,7 @@
 		48F0A5ED2B89824F000AD05E /* SBTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0A5EC2B89824F000AD05E /* SBTextField.swift */; };
 		48F0A5EF2B898269000AD05E /* SBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0A5EE2B898269000AD05E /* SBButton.swift */; };
 		48F0A5F12B8983C3000AD05E /* SBTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0A5F02B8983C3000AD05E /* SBTitleLabel.swift */; };
+		ED1E51D82D622CAA0075DDE6 /* ChekingAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1E51D72D622C9F0075DDE6 /* ChekingAccount.swift */; };
 		ED7647082D4EBCDA00E5BE62 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7647072D4EBCCC00E5BE62 /* NotificationService.swift */; };
 		ED76470A2D4EBD8600E5BE62 /* TransactionHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7647092D4EBD6B00E5BE62 /* TransactionHistoryService.swift */; };
 		ED76470C2D4FE90700E5BE62 /* BankOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED76470B2D4FE90100E5BE62 /* BankOperation.swift */; };
@@ -50,6 +51,7 @@
 		48F0A5EC2B89824F000AD05E /* SBTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBTextField.swift; sourceTree = "<group>"; };
 		48F0A5EE2B898269000AD05E /* SBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBButton.swift; sourceTree = "<group>"; };
 		48F0A5F02B8983C3000AD05E /* SBTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBTitleLabel.swift; sourceTree = "<group>"; };
+		ED1E51D72D622C9F0075DDE6 /* ChekingAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChekingAccount.swift; sourceTree = "<group>"; };
 		ED7647072D4EBCCC00E5BE62 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		ED7647092D4EBD6B00E5BE62 /* TransactionHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryService.swift; sourceTree = "<group>"; };
 		ED76470B2D4FE90100E5BE62 /* BankOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankOperation.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		ED8F5E222D5ECD9500DE6E16 /* Accounts */ = {
 			isa = PBXGroup;
 			children = (
+				ED1E51D72D622C9F0075DDE6 /* ChekingAccount.swift */,
 				ED8F5E232D5ECD9C00DE6E16 /* FrozenAccount.swift */,
 			);
 			path = Accounts;
@@ -235,6 +238,7 @@
 				48BD84D42B8E71E4007F2460 /* Color+.swift in Sources */,
 				48F0A5E82B897CB7000AD05E /* UIViewController+.swift in Sources */,
 				48F0A5EF2B898269000AD05E /* SBButton.swift in Sources */,
+				ED1E51D82D622CAA0075DDE6 /* ChekingAccount.swift in Sources */,
 				48F0A5C82B8950C0000AD05E /* AppDelegate.swift in Sources */,
 				ED76470A2D4EBD8600E5BE62 /* TransactionHistoryService.swift in Sources */,
 				48F0A5CA2B8950C0000AD05E /* SceneDelegate.swift in Sources */,
