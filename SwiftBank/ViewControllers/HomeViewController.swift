@@ -9,9 +9,9 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-//    private var bankAccount = BankAccount(accountNumber: "10001")
+    private var bankAccount = BankAccount(accountNumber: "10001")
     
-    private var bankAccount = FrozenAccount(accountNumber: "10001")
+//    private var bankAccount = FrozenAccount(accountNumber: "10001")
             
     private var withdrawAmount: String {
         return bankAccount.balance.formatCurrency()
